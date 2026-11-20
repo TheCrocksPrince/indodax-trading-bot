@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Trading Bot - Private Data
+data/
+binance_private_results.json
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/

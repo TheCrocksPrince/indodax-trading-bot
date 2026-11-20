@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-26T09:33:04.608607+00:00",
+  "mode": "READ_ONLY_LIVE_VERIFICATION",
+  "total_endpoints": 13,
+  "results": [
+    {
+      "endpoint": "GET /api/v2/account",
+      "status": "LIVE_PASS",
+      "response_type": "dict"
+    },
+    {
+      "endpoint": "GET /api/v2/openOrders",
+      "status": "LIVE_PASS",
+      "response_type": "list"
+    },
+    {
+      "endpoint": "GET /api/v2/order/histories",
+      "status": "LIVE_PASS",
+      "response_type": "dict"
+    },
+    {
+      "endpoint": "GET /api/v2/myTrades",
+      "status": "LIVE_PASS",
+      "response_type": "dict"
+    },
+    {
+      "endpoint": "GET /api/v2/capital/withdraw/history",
+      "status": "LIVE_PASS",
+      "response_type": "list"
+    },
+    {
+      "endpoint": "GET /api/v2/capital/deposit/hisrec",
+      "status": "LIVE_PASS",
+      "response_type": "list"
+    },
+    {
+      "endpoint": "GET /api/v2/fiat/orders",
+      "status": "LIVE_PASS",
+      "response_type": "dict"
+    },
+    {
+      "endpoint": "GET /api/v2/capital/deposit/address/list",
+      "status": "LIVE_PASS",
+      "response_type": "list"
+    },
+    {
+      "endpoint": "GET /api/v2/order",
+      "status": "NOT_VERIFIED",
+      "reason": "No valid order ID configured"
+    },
+    {
+      "endpoint": "POST /api/v2/order",
+      "status": "SIMULATED_ONLY",
+      "reason": "Production mutation intentionally blocked"
+    },
+    {
+      "endpoint": "DELETE /api/v2/order",
+      "status": "SIMULATED_ONLY",
+      "reason": "Production mutation intentionally blocked"
+    },
+    {
+      "endpoint": "POST /api/v2/capital/withdraw/apply",
+      "status": "SIMULATED_ONLY",
+      "reason": "Production mutation intentionally blocked"
+    },
+    {
+      "endpoint": "POST /api/v2/fiat/withdraw",
+      "status": "SIMULATED_ONLY",
+      "reason": "Production mutation intentionally blocked"
+    }
+  ]
+}
